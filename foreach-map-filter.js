@@ -7,7 +7,11 @@ Examples:
 
 */
 function doubleValues(arr){
-    
+    let array = []
+    arr.forEach(function(value){
+        array.push(value * 2)
+    })
+    return array
 }
 
 /*
