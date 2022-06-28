@@ -61,7 +61,14 @@ Examples:
 
 */
 function addKeyAndValue(arr,key,value){
-    
+    let array = []
+
+    arr.forEach(function(val){
+        val[key] = value
+        array.push(val)
+    })
+
+    return array
 }
 
 /*
