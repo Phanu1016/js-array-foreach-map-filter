@@ -145,7 +145,9 @@ Examples:
 */
 
 function extractFullName(arr){
-    
+    return arr.map(function(value){
+        return `${value["first"]} ${value["last"]}`
+    })
 }
 
 /*
